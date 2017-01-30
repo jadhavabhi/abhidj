@@ -1,0 +1,6 @@
+1.git config --global user.name abhidj
+2.git config --global user.email paachill007@gmail.com
+3.git config --list
+4.git init   //initialise your repository
+5.git status //show working directory file
+6.git add file1.txt
