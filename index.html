@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<head><title>My Portfolio :: Home </title>
+<link href="css/dropbtn.css" type="text/css" rel="stylesheet">
+<link href="css/democss.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="js/contact.js"></script>
+</head>
+<body>
+<div class="w3-container">
+	<header>
+		<ul>
+			<div class="icon_demo">
+			<li><a href="#"><i class="fa fa-facebook"></i></a><li>
+			<li><a href="#"><i class="fa fa-twitter"></i></a><li>
+			<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+			<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+			</div>
+		</ul>
+
+		<h1>My Portfolio</h1>
+	</header>
+	<div class="navbar">
+	<nav>
+		<ul>
+		<li><a href="#info">Information</a><li>
+		<li class="dropdown">
+		<a href="javascript:void(0)" onclick="myFunction()" class="dropbtn">Experience</a>
+			<div class="dropdown-content" id="myDropdown">
+				<a href="#">Project</a>
+				<a href="#">Blog</a>
+				<a href="#">Career</a>
+			</div>
+		<li>
+		<li><a href="contact.html">Contact</a><li>
+		<li><a href="AbhishekJadhav.pdf">Resume</a><li>
+	</ul>	
+	</nav>
+	</div>
+	<div class="infopart">
+	<aside style="float:right">
+	<div class="content_right">
+		<img src="ACSES_abhi.jpg" alt="My Photo" />
+		<div id="name"><h3 style="float:center">Abhishek Jadhav</h3>
+		<p>Student at Walchand College Of Engineering
+		Association of Computer Science and Engineering Student   
+		Walchand College of Engineering , Vishrambag
+		Sangli, Maharashtra, India </p>
+		</div>
+	</aside>
+	<section>
+
+		<div id="info">
+			<table cellspacing="5" cellpadding="5" border="5">
+
+				<tr>
+					<td>Name:</td>
+					<td>Abhishek Jadhav</td> 
+				</tr>
+
+				<tr>
+					<td>Date of Birth</td>
+					<td>July 14 1996</td>
+				</tr>
+
+				<tr>
+					<td>Address:</td>
+					<td>Sangli</td>
+				</tr>
+				<tr>	
+					<td>Email:</td>
+					<td>paachill007@gmail.com</td>
+				</tr>
+				
+				<tr>
+					<td>Phone:</td>
+					<td>+917066328861</td>
+				</tr>
+
+				<tr>
+					<td>Website:</td>
+					<td>http://wceacses.org</td>
+				</tr>
+
+			</table>
+		<section>	
+			<details>
+			<summary>About me</summary>
+			<article>
+			<h2><mark>About Myself</mark></h2>
+			<p>I am an aspiring Computer Sciences & Engineering student pursuing my graduation from one of the prestigious Engineering College in Maharashtra.
+			My field of interest is Coding and Management activities.My aim is to become a good Software Engineer so that i can pay my services to welfare of Society
+			</p>
+			</article>
+			</details>
+		</section>
+		</div>
+	</section>
+	</div>
+	<br/>
+	<hr/>
+	<section>
+		<div id="contact" style="margin-top:1000px">
+			<h1> Contact Form </h1>
+			<form name="contact_form" method="post" action="thanks.html" onsubmit="return validateform()" >
+				<table>
+					<tr>
+						<td>Name:</td>
+						<td><input type="text" name="name" id="name" placeholder="Name here.."></td>
+					</tr>
+					<tr>
+						<td>Email:</td>
+						<td><input type="text" name="email" id="email" placeholder="Email here.."></td>
+					</tr>
+					<tr>
+						<td>Message:</td>
+						<td><textarea name="message" id="message"  placeholder="Message here.."></textarea></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input type="submit" name="submit" value="Submit"></td>
+					</tr>
+				</table>
+			</form>
+			<time></time>
+		</div>
+	</section>
+</div>	
+	<footer>
+		<div align="center">All Rights Reserved &copy;2017</div>
+	</footer>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+</script>
+
+</body>
+</html>
